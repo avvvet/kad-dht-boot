@@ -21,7 +21,7 @@ copy this node address and add it to your bootstrap nodes list on your joining p
 
 ## AWS EC2
 when you use aws EC2 and run the application, it will show you the vpc internal ip address, so copy that address but change the ip only with
-your public ip address and use it in your peer nodes. 
+your public ip address and use it in your peer nodes. also open the port address in your ec2 Inbound rules.
 ```
 
 ![image](https://user-images.githubusercontent.com/25494022/175945690-53ab8fb3-d2ba-4fba-89f3-5272382e3ddc.png)
