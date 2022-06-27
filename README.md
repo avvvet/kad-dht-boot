@@ -16,11 +16,15 @@ $ go run .
 Kademlia DHT boot node : -->  QmW3TsL15x5b9bRDVUEodnXyxPaNHzp6JashgYz37CmhpJ
 
 ## How to use it
-copy this node address and add it to your bootstrap nodes list on your joining peer. (thi node address from the above example is `/ip4/172.20.10.2/tcp/41943/p2p/QmW3TsL15x5b9bRDVUEodnXyxPaNHzp6JashgYz37CmhpJ`)
+copy this node address and add it to your bootstrap nodes list on your joining peer. 
+(boot node address from the above example is `/ip4/172.31.91.153/tcp/39049/p2p/QmYZYpGMGd2m9JcUrB9Sdfik7nG2qVTYQ5V6zAVSe6dHTh`)
 
+## AWS EC2
+when you use aws EC2 and run the application, it will show you the vpc internal ip address, so copy that address but change the ip only with
+your public ip address and use it in your peer nodes. 
 ```
 
-![image](https://user-images.githubusercontent.com/25494022/175942566-a1365cc2-c171-4002-9e69-e681b9397917.png)
+![image](https://user-images.githubusercontent.com/25494022/175945690-53ab8fb3-d2ba-4fba-89f3-5272382e3ddc.png)
 
 ## Credit
 to open source community - while some tries to make our day dificult and be smart ass, other beautiful mind make our day joyfull !! ❤️
