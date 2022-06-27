@@ -22,4 +22,4 @@ copy this node address and add it to your bootstrap nodes list on your joining p
 to open source community - while some tries to make our day dificult and be smart ass, other beautiful mind make our day joyfull !! 
 
 
-![image](https://user-images.githubusercontent.com/25494022/175942373-68e69df9-68cc-42ce-8dfa-1bac8e9a1509.png)
+![image](https://user-images.githubusercontent.com/25494022/175942566-a1365cc2-c171-4002-9e69-e681b9397917.png)
