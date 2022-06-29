@@ -48,6 +48,9 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	go Discover(ctx, h, dht, config.Rendezvous)
+
 	fmt.Println("Kademlia DHT boot node : --> ", dht.Host().ID().Pretty())
 
 	waitSignal(h, cancel)

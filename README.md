@@ -2,7 +2,7 @@
 
 what is it ? 
 
-In order your p2p nodes to join your network , they need at least one node that helps them to find other nodes and start the distrubuted communication. once nodes up and running they don't need the availablity of the boot node. 
+In order your p2p nodes to join your public network , they need at least one node that helps them to find other nodes and start the distrubuted communication. once nodes up and running they don't need the availablity of the boot node. 
 
 
 ## How to run
@@ -19,9 +19,14 @@ Kademlia DHT boot node : -->  QmW3TsL15x5b9bRDVUEodnXyxPaNHzp6JashgYz37CmhpJ
 copy this node address and add it to your bootstrap nodes list on your joining peer. 
 (boot node address from the above example is `/ip4/172.31.91.153/tcp/39049/p2p/QmYZYpGMGd2m9JcUrB9Sdfik7nG2qVTYQ5V6zAVSe6dHTh`)
 
-## AWS EC2
-when you use aws EC2 and run the application, it will show you the vpc internal ip address, so copy that address but change the ip only with
-your public ip address and use it in your peer nodes. also open the port address in your ec2 Inbound rules.
+## server
+server which the boot node running, need to have public ip address. make sure when the bood start shows the public ip not the 
+private ip. 
+
+if you use server from digitialocean, it will show you the public ip and it works directly. However on AWS EC2 you need to open port number 
+of the boot node on the ec2 network security.
+ 
+
 ```
 
 ![image](https://user-images.githubusercontent.com/25494022/175945690-53ab8fb3-d2ba-4fba-89f3-5272382e3ddc.png)
