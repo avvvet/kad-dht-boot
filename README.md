@@ -2,7 +2,7 @@
 
 what is it ? 
 
-In order your p2p nodes to join your public network , they need at least one node that helps them to find other nodes and start the distrubuted communication. once nodes up and running they don't need the availablity of the boot node. 
+In order your p2p nodes to join your public network , they need at least one node that helps them to find other nodes and start the decentralize communication. once nodes up and running they don't need the availablity of the boot node. 
 
 
 ## How to run
