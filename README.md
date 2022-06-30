@@ -16,15 +16,13 @@ $ go run .
 Kademlia DHT boot node : -->  QmW3TsL15x5b9bRDVUEodnXyxPaNHzp6JashgYz37CmhpJ
 
 ## How to use it
-copy this node address and add it to your bootstrap nodes list on your joining peer. 
-(boot node address from the above example is `/ip4/172.31.91.153/tcp/39049/p2p/QmYZYpGMGd2m9JcUrB9Sdfik7nG2qVTYQ5V6zAVSe6dHTh`)
+copy this node address and add it to your bootstrap nodes list on your joining peer. for example for the cpu-node, gpu, admin node
+ `go run . -boot /ip4/172.31.91.153/tcp/39049/p2p/QmYZYpGMGd2m9JcUrB9Sdfik7nG2qVTYQ5V6zAVSe6dHTh` (this is example)
 
 ## server
-server which the boot node running, need to have public ip address. make sure when the bood start shows the public ip not the 
-private ip. 
+server which the boot node running, need to have public ip address (to connect nodes found in diffrent location). make sure when the bood start shows the public ip not the private ip. (For testing on local network you can run the boot node in one terminal and use its address in other nodes, by this your nodes that are available in same network will be discovered each other)
 
-if you use server from digitialocean, it will show you the public ip and it works directly. However on AWS EC2 you need to open port number 
-of the boot node on the ec2 network security.
+if you use server from digitialocean, it will show you the public ip and it works directly. However on AWS EC2 you need to open port number of the boot node on the ec2 network security.
  
 
 ```
