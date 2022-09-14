@@ -30,8 +30,7 @@ if you use server from digitialocean, it will show you the public ip and it work
  
 
 ```
-
-![image](https://user-images.githubusercontent.com/25494022/175945690-53ab8fb3-d2ba-4fba-89f3-5272382e3ddc.png)
+![image](https://user-images.githubusercontent.com/25494022/190240123-92ce450c-6d47-4d8b-bf8b-522ce3a152cd.png)
 
 ## Credit
 to open source community - while some tries to make our day dificult and be smart ass, other beautiful mind make our day joyfull !! ❤️
