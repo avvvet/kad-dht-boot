@@ -1,4 +1,6 @@
-# Kademlia DHT boot node 
+![image](https://user-images.githubusercontent.com/25494022/190240123-92ce450c-6d47-4d8b-bf8b-522ce3a152cd.png)
+
+# Kademlia DHT bootstrap node 
 
 what is it ? 
 
@@ -27,10 +29,8 @@ copy this node address and use it in your other peers
 server which the boot node running, need to have public ip address (to connect nodes found in diffrent locations). make sure when you use/copy the address use the public ip not the private ip. 
 
 if you use server from digitialocean, it will show you the public ip and it works directly. However on AWS EC2 you need to open port number of the boot node on the ec2 network security.
- 
 
 ```
-![image](https://user-images.githubusercontent.com/25494022/190240123-92ce450c-6d47-4d8b-bf8b-522ce3a152cd.png)
 
 ## Credit
 to open source community - while some tries to make our day dificult and be smart ass, other beautiful mind make our day joyfull !! ❤️
