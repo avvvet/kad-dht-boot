@@ -1,4 +1,4 @@
-module a3b0
+module github.com/avvvet/kad-dht-boot
 
 go 1.18
 
@@ -6,7 +6,6 @@ require (
 	github.com/libp2p/go-libp2p v0.20.2
 	github.com/libp2p/go-libp2p-core v0.17.0
 	github.com/libp2p/go-libp2p-discovery v0.7.0
-	github.com/libp2p/go-libp2p-gorpc v0.4.0
 	github.com/libp2p/go-libp2p-kad-dht v0.16.0
 	github.com/multiformats/go-multiaddr v0.6.0
 )
@@ -19,6 +18,7 @@ require (
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/cheekybits/genny v1.0.0 // indirect
+	github.com/common-nighthawk/go-figure v0.0.0-20210622060536-734e95fb86be // indirect
 	github.com/containerd/cgroups v0.0.0-20201119153540-4cbc285b3327 // indirect
 	github.com/coreos/go-systemd/v22 v22.1.0 // indirect
 	github.com/davidlazar/go-crypto v0.0.0-20200604182044-b73af7476f6c // indirect
