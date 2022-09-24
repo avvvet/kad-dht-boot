@@ -44,7 +44,7 @@ func main() {
 	}
 
 	fmt.Println("")
-	log.Println(" ✅️ Kademlia DHT bootstrap node active.. use one of the above address to connect to it")
+	log.Println(" 👍️ Kademlia DHT bootstrap node active.. 👆️ use one of the above address to connect to it")
 
 	waitSignal(h, cancel)
 }
@@ -55,7 +55,7 @@ func waitSignal(h host.Host, cancel func()) {
 	signal.Notify(c, os.Interrupt, syscall.SIGHUP, syscall.SIGINT, syscall.SIGTERM)
 	<-c
 
-	fmt.Printf("\r👋️ stopped...\n")
+	fmt.Printf("\r👋️  👋️ stopped...\n")
 
 	cancel()
 
